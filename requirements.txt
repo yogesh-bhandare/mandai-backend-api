@@ -1,0 +1,14 @@
+Celery
+Django
+gunicorn
+psycopg[binary]
+dj-database-url
+django-celery-beat 
+django-celery-results
+python-decouple
+redis
+jupyter
+selenium
+beautifulsoup4
+djangorestframework
+django-cors-headers
