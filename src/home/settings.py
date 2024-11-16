@@ -33,7 +33,8 @@ ALLOWED_HOSTS = [
 if DEBUG:
     ALLOWED_HOSTS += [
         "127.0.0.1",
-        "localhost"
+        "localhost",
+        "192.168.29.7",
     ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -61,6 +62,8 @@ INSTALLED_APPS = [
 
     # installed apps
     "commodities",
+    "vendors",
+    "market",
 ]
 
 MIDDLEWARE = [
