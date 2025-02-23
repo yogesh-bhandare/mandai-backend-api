@@ -62,8 +62,6 @@ INSTALLED_APPS = [
 
     # installed apps
     "commodities",
-    "vendors",
-    "market",
 ]
 
 MIDDLEWARE = [
